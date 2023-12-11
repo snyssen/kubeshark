@@ -130,6 +130,10 @@ helm install kubeshark kubeshark/kubeshark \
 | `tap.resources.worker.limits.memory`      | Memory limit for worker                       | `1Gi`                                                   |
 | `tap.resources.worker.requests.cpu`       | CPU request for worker                        | `50m`                                                   |
 | `tap.resources.worker.requests.memory`    | Memory request for worker                     | `50Mi`                                                  |
+| `tap.resources.tracer.limits.cpu`         | CPU limit for tracer                          | `750m`                                                  |
+| `tap.resources.tracer.limits.memory`      | Memory limit for tracer                       | `1Gi`                                                   |
+| `tap.resources.tracer.requests.cpu`       | CPU request for tracer                        | `50m`                                                   |
+| `tap.resources.tracer.requests.memory`    | Memory request for tracer                     | `50Mi`                                                  |
 | `tap.resources.hub.limits.cpu`            | CPU limit for hub                             | `750m`                                                  |
 | `tap.resources.hub.limits.memory`         | Memory limit for hub                          | `1Gi`                                                   |
 | `tap.resources.hub.requests.cpu`          | CPU request for hub                           | `50m`                                                   |
